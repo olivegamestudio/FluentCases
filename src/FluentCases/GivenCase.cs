@@ -40,7 +40,6 @@ public sealed class GivenCase<TContext>
         }
 
         act(_context);
-
         return new WhenCase<TContext>(_context);
     }
 }

@@ -18,13 +18,7 @@ sealed class ShoppingBasket
         ItemCount++;
     }
 
-    public void TotalShouldBe(decimal amount)
-    {
-        Assert.Equal(amount, Total);
-    }
+    public void TotalShouldBe(decimal amount) => Assert.Equal(amount, Total);
 
-    public void ItemCountShouldBe(int count)
-    {
-        Assert.Equal(count, ItemCount);
-    }
+    public void ItemCountShouldBe(int count) => Assert.Equal(count, ItemCount);
 }
