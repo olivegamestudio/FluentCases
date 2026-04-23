@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/FluentCases/FluentCases.csproj" />
+  <Project Path="tests/FluentCases.Tests/FluentCases.Tests.csproj" />
+</Solution>
